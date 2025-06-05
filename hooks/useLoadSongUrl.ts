@@ -21,4 +21,4 @@ const {data:songData}=supabaseClient
 
 }
 
-export defalut useLoadSongUrl;
+export default useLoadSongUrl;
