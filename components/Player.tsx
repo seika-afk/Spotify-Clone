@@ -5,7 +5,6 @@ import usePlayer from "@/hooks/usePlayer";
 import useLoadSongUrl from "@/hooks/useLoadSongUrl";
 import PlayerContent from "@/components/PageContent.tsx"
 
-
 const Player = () => {
   const player = usePlayer(); 
   const { song } = useGetSongById(player.activeId);
